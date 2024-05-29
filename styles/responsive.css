@@ -1,0 +1,75 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+  
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .confetti {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    .merrywrap{
+        right: 0;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100;
+        width: 100%;
+    }
+    .typedText {
+        font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 90px;
+        padding-right: 75px;
+    }
+    .giftbox {
+        height: 190px;
+        width: 280px;
+        bottom: 50px;
+    }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .confetti {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    .merrywrap{
+        right: 0;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100;
+        width: 100%;
+    }
+    .typedText {
+        font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .giftbox {
+        height: 150px;
+        width: 225px;
+        bottom: 50px;
+        margin-left: -107px;
+    }
+
+  }
+  @media screen and (max-width: 575px) {
+
+
+
+
+
+  }  

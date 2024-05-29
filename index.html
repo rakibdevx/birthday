@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Happy Birthday!</title>
+
+  <link rel="stylesheet" href="styles/flexbox-center-container.css" media="all">
+  <link rel="stylesheet" href="styles/system-fonts.css" media="all">
+  <link rel="stylesheet" href="styles/style.css" media="all">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+
+<body>
+  <canvas id=c></canvas>
+  <canvas id="confetti"></canvas>
+  <div class="container" id="count">
+    <h1 id="head">Countdown to your birthday:</h1>
+    <ul>
+      <li><span id="day"></span>days</li>
+      <li><span id="hour"></span>hours</li>
+      <li><span id="minute"></span>minutes</li>
+      <li><span id="second"></span>seconds</li>
+    </ul>
+  </div>
+
+  <div id="merrywrap" class="merrywrap">
+    <canvas id="snowfall"></canvas>
+    <div id="content"></div>
+    <div id="test"><p class="typedText">Happy birthday Sharmin!  May every year bring another year in your life. 
+       May your days be among the most beautiful days in the world.  May all the small hopes in your life be
+      fulfilled.   Always be with your loved ones.This is a small gift from me to you. <span class="color">Click on the gift box</span>
+      </p></div>
+    <div class="giftbox animate__bounceIn " >
+      <div class="cover">
+        <div></div>
+      </div>
+      <div class="box">
+        <audio id="myAudio">
+          <source src="sound/happy-birthday-to-you-lullaby-94102.mp3" type="audio/ogg">
+        </audio>
+        <button onclick="playAudio()" type="button" class="click-button">Play Audio</button> 
+        <!-- <button onclick="myFunction()" type="button" id="hide">click</button>  -->
+      </div>
+    </div>
+  </div>
+</body>
+<script src="scripts/confetti.min.js" charset="utf-8"></script>
+<script src="scripts/index.js" charset="utf-8"></script>
+
+</html>
